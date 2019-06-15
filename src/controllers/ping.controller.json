@@ -1,0 +1,31 @@
+{
+    "openapi": "3.0.0",
+    "description": "Ping Response",
+    "content": {
+        "application/json": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "greeting": {
+                        "type": "string"
+                    },
+                    "date": {
+                        "type": "string"
+                    },
+                    "url": {
+                        "type": "string"
+                    },
+                    "headers": {
+                        "type": "object",
+                        "properties": {
+                            "Content-Type": {
+                                "type": "string"
+                            }
+                        },
+                        "additionalProperties": true
+                    }
+                }
+            }
+        }
+    }
+}
