@@ -1,0 +1,17 @@
+{
+  "ids": {
+    "Measurement": 3,
+    "Buoy": 2
+  },
+  "models": {
+    "Measurement": {
+      "1": "{\"id\":1, \"dateTime\": \"2018-07-13\", \"peakFrequency\": 666, \"buoyPlaceName\": \"Oostende\"}",
+      "2": "{\"id\":2, \"dateTime\": \"2018-07-13\", \"peakFrequency\": 666, \"buoyPlaceName\": \"Scheveningen\"}",
+      "3": "{\"id\":3, \"dateTime\": \"2018-07-13\", \"peakFrequency\": 666, \"buoyPlaceName\": \"Scheveningen\"}"
+    },
+    "Buoy": {
+      "1": "{\"placeName\":\"Oostende\", \"location\" : {\"latitude\": 123, \"longitude\": 456}}",
+      "2": "{\"placeName\":\"Scheveningen\", \"description\":\"Northsea buoy measuring 1 km from Scheveningen coast.\"}"
+    }
+  }
+}
